@@ -6,3 +6,5 @@ Generic serialization and deserialization class has six functionality ;
 Json serialization - deserialization (used Newtonsoft.Json package) <br/>
 Xml serialization - deserialization  (used System.Xml.Serialization)<br/>
 Binary serialization - deserialization (used System.Runtime.Serialization.Formatters.Binary)<br/>
+
+<br/><br/> Author <br/> Mustafa Çağatay KIZILTAN
