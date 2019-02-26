@@ -34,7 +34,6 @@ namespace Serialization
 
         public static string ToXml<T>(T thisObject)
         {
-
             var serializer = new XmlSerializer(typeof(T));
             XmlDocument xmlDoc = new XmlDocument();
 
@@ -46,7 +45,6 @@ namespace Serialization
 
                 return xmlDoc.InnerXml;
             }
-
         }
 
         public static T FromXml<T>(string xmlString)
