@@ -92,7 +92,6 @@ namespace Serialization
                 //logging
                 return false;
             }
-
         }
 
     }
