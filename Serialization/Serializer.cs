@@ -78,6 +78,24 @@ namespace Serialization
 
             }
         }
+        
+        public static bool ValidateJsonFormat(string jsonString)
+        {
+            try
+            {
+                FromJson<object>(jsonString);
+
+                return true;
+
+            }
+            catch (Exception e)
+            {
+                //logging
+
+                return false;
+            }
+
+        }
 
     }
 
