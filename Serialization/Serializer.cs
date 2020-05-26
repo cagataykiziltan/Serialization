@@ -86,12 +86,10 @@ namespace Serialization
                 FromJson<object>(jsonString);
 
                 return true;
-
             }
             catch (Exception e)
             {
                 //logging
-
                 return false;
             }
 
